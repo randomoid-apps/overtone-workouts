@@ -19,7 +19,31 @@ Workouts from anyone are welcome. Send a pull request that adds one file to `wor
 4. Give it a `@description` saying what it is and what's needed, and a `@workout` saying what it
    records in Health.
 
-Don't edit `catalog.json` or `artwork/`: they're written from the scripts when a workout is merged.
+## Adding an exercise
+
+Exercises are what the app's New Workout builds workouts from. Each is one small file in
+`exercises/`, named `<group>-<name>.json`, such as `legs-squats.json`:
+
+```json
+{
+  "name": "Squats",
+  "tip": "Feet shoulder-width apart, sit back, chest up.",
+  "seconds": 30,
+  "group": "Legs"
+}
+```
+
+| Field | What it is |
+|---|---|
+| `name` | Said as it starts, and shown in the list. Needed |
+| `group` | What it works, such as `Legs`, `Core`, `Upper Body`, `Full Body` or `Cardio`. Needed |
+| `tip` | Said after its name: how to do it |
+| `seconds` | How long it usually lasts, 5 to 600 in steps of 5; 30 if not given |
+| `holds` | `true` for as many as you can: the app waits until the listener taps Next |
+| `tracked` | A number to ask for as it finishes, such as `Reps` |
+| `equipment` | What it needs, such as `Chair`; leave it out for nothing |
+
+Don't edit `catalog.json` or `artwork/`: they're written from the scripts and exercises when a pull request is merged.
 
 Only send what you wrote yourself, or have permission to share under this repository's licence.
 Workouts are reviewed before they're merged, and the app shows them to everyone, so keep them
@@ -27,6 +51,6 @@ suitable for all ages.
 
 ## Licence
 
-The workouts and their artwork are licensed under
+The workouts, exercises and artwork are licensed under
 [Creative Commons Attribution 4.0](LICENSE) (CC BY 4.0): anyone may use, share and adapt them,
 giving credit.

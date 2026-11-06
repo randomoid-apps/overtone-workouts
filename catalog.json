@@ -1,4 +1,157 @@
 {
+  "exercises" : [
+    {
+      "group" : "Cardio",
+      "id" : "cardio-high-knees",
+      "name" : "High knees",
+      "seconds" : 30,
+      "tip" : "Run on the spot, knees up to hip height."
+    },
+    {
+      "group" : "Cardio",
+      "id" : "cardio-jumping-jacks",
+      "name" : "Jumping jacks",
+      "seconds" : 30,
+      "tip" : "Stay light on your toes."
+    },
+    {
+      "group" : "Cardio",
+      "id" : "cardio-mountain-climbers",
+      "name" : "Mountain climbers",
+      "seconds" : 40,
+      "tip" : "Hips level, knees to the chest."
+    },
+    {
+      "group" : "Core",
+      "id" : "core-crunches",
+      "name" : "Crunches",
+      "seconds" : 30,
+      "tip" : "On your back, knees bent. Lift the shoulders, not the neck. Count them.",
+      "tracked" : "Reps"
+    },
+    {
+      "group" : "Core",
+      "id" : "core-dead-bugs",
+      "name" : "Dead bugs",
+      "seconds" : 45,
+      "tip" : "Lower back flat on the floor. Opposite arm and leg out, then switch."
+    },
+    {
+      "group" : "Core",
+      "id" : "core-plank",
+      "name" : "Plank",
+      "seconds" : 30,
+      "tip" : "On your forearms, body straight from head to heels."
+    },
+    {
+      "group" : "Core",
+      "id" : "core-side-plank",
+      "name" : "Side plank",
+      "seconds" : 30,
+      "tip" : "On one forearm, hips up, body straight. Switch sides halfway."
+    },
+    {
+      "group" : "Full Body",
+      "id" : "full-body-burpees",
+      "name" : "Burpees",
+      "seconds" : 20,
+      "tip" : "Squat, jump the feet back, chest to the floor, jump up."
+    },
+    {
+      "group" : "Full Body",
+      "id" : "full-body-push-up-and-rotation",
+      "name" : "Push-up and rotation",
+      "seconds" : 30,
+      "tip" : "After each push-up, turn into a side plank with one arm to the ceiling. Alternate sides."
+    },
+    {
+      "group" : "Legs",
+      "id" : "legs-glute-bridges",
+      "name" : "Glute bridges",
+      "seconds" : 45,
+      "tip" : "On your back, feet flat. Lift the hips and pause at the top."
+    },
+    {
+      "equipment" : "Dumbbell or kettlebell",
+      "group" : "Legs",
+      "id" : "legs-goblet-squats",
+      "name" : "Goblet squats",
+      "seconds" : 45,
+      "tip" : "Hold the weight at your chest. Count them.",
+      "tracked" : "Reps"
+    },
+    {
+      "group" : "Legs",
+      "id" : "legs-lunges",
+      "name" : "Lunges",
+      "seconds" : 30,
+      "tip" : "Step forward until both knees are at a right angle, alternating legs."
+    },
+    {
+      "group" : "Legs",
+      "id" : "legs-reverse-lunges",
+      "name" : "Reverse lunges",
+      "seconds" : 40,
+      "tip" : "Step back, alternating legs."
+    },
+    {
+      "group" : "Legs",
+      "id" : "legs-squats",
+      "name" : "Squats",
+      "seconds" : 30,
+      "tip" : "Feet shoulder-width apart, sit back, chest up."
+    },
+    {
+      "equipment" : "Chair",
+      "group" : "Legs",
+      "id" : "legs-step-ups",
+      "name" : "Step-ups",
+      "seconds" : 30,
+      "tip" : "Step up with one leg, then the other, and down the same way."
+    },
+    {
+      "equipment" : "Wall",
+      "group" : "Legs",
+      "id" : "legs-wall-sit",
+      "name" : "Wall sit",
+      "seconds" : 30,
+      "tip" : "Back flat against the wall, knees bent to a right angle."
+    },
+    {
+      "equipment" : "Dumbbells",
+      "group" : "Upper Body",
+      "id" : "upper-body-bent-over-rows",
+      "name" : "Bent-over rows",
+      "seconds" : 45,
+      "tip" : "Hinge at the hips, back flat. Squeeze the shoulder blades. Count them.",
+      "tracked" : "Reps"
+    },
+    {
+      "equipment" : "Pull-up bar",
+      "group" : "Upper Body",
+      "holds" : true,
+      "id" : "upper-body-pull-ups",
+      "name" : "Pull-ups",
+      "tip" : "As many as you can. Tap Next when you're done.",
+      "tracked" : "Reps"
+    },
+    {
+      "group" : "Upper Body",
+      "id" : "upper-body-push-ups",
+      "name" : "Push-ups",
+      "seconds" : 30,
+      "tip" : "Hands under the shoulders, body in a straight line. Count them.",
+      "tracked" : "Reps"
+    },
+    {
+      "equipment" : "Chair",
+      "group" : "Upper Body",
+      "id" : "upper-body-triceps-dips",
+      "name" : "Triceps dips",
+      "seconds" : 30,
+      "tip" : "Hands on the chair's edge behind you, lower the hips, and push back up."
+    }
+  ],
   "version" : 1,
   "workouts" : [
     {
