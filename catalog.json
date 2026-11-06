@@ -1,0 +1,85 @@
+{
+  "version" : 1,
+  "workouts" : [
+    {
+      "activity" : "hiit",
+      "artwork" : "artwork/hiit-1-seven-minute.jpg",
+      "description" : "The classic circuit of twelve exercises, thirty seconds each with ten seconds' rest between them, from Klika and Jordan's 2013 article for the American College of Sports Medicine. You need a wall and a sturdy chair. Each exercise is a chapter, so you can repeat the circuit's hardest ones or skip any you can't do; push-ups and crunches ask for your count.",
+      "exercises" : 12,
+      "file" : "workouts/hiit-1-seven-minute.overtone",
+      "id" : "hiit-1-seven-minute",
+      "seconds" : 489,
+      "title" : "The 7-Minute Workout"
+    },
+    {
+      "activity" : "hiit",
+      "artwork" : "artwork/hiit-2-seven-minute-talked-through.jpg",
+      "description" : "The classic circuit of twelve exercises, thirty seconds each, with the talking done in rest chapters: each rest explains the exercise after it, so the thirty seconds of work have only the tones and a cue or two. You need a wall and a sturdy chair. Push-ups and crunches ask for your count. For a countdown into each exercise, choose 3-2-1 in Settings, End of Rest.",
+      "exercises" : 12,
+      "file" : "workouts/hiit-2-seven-minute-talked-through.overtone",
+      "id" : "hiit-2-seven-minute-talked-through",
+      "seconds" : 547,
+      "title" : "The 7-Minute Workout, Talked Through"
+    },
+    {
+      "activity" : "squash",
+      "artwork" : "artwork/squash-1-phase1-a.jpg",
+      "description" : "Solo practice for one court, about 50 minutes: straight drives, feeding and stepping in, drives from the front court and short sequences, between rounds of ghosting to the corners. Each drill has a target; hit every target in two sessions back to back to move up.",
+      "exercises" : 19,
+      "file" : "workouts/squash-1-phase1-a.overtone",
+      "id" : "squash-1-phase1-a",
+      "seconds" : 3174,
+      "title" : "Squash solo - Phase 1 A: Drive & Move"
+    },
+    {
+      "activity" : "squash",
+      "artwork" : "artwork/squash-2-phase1-b.jpg",
+      "description" : "Solo practice for one court, about 50 minutes: short and ladder volleys, volley heights, drops, the serve and length, between rounds of ghosting. Each drill has a target; hit every target in two sessions back to back to move up.",
+      "exercises" : 20,
+      "file" : "workouts/squash-2-phase1-b.overtone",
+      "id" : "squash-2-phase1-b",
+      "seconds" : 3151,
+      "title" : "Squash solo - Phase 1 B: Volley & Front Court"
+    },
+    {
+      "activity" : "squash",
+      "artwork" : "artwork/squash-3-focus-front.jpg",
+      "description" : "Solo practice for one court, about 50 minutes, on the front of the court and the back: length by height, drops and lobs, boasts, and length when tired, between rounds of ghosting to reach the front early.",
+      "exercises" : 17,
+      "file" : "workouts/squash-3-focus-front.overtone",
+      "id" : "squash-3-focus-front",
+      "seconds" : 3066,
+      "title" : "Squash solo - Focus: Drops, Lobs & Length"
+    },
+    {
+      "activity" : "squash",
+      "artwork" : "artwork/squash-4-ladder-figure-eight.jpg",
+      "description" : "The figure of eight in fifteen levels, from front-wall hits with a bounce to the full corner volley drill. Based on The Pursuit of Squash.",
+      "exercises" : 16,
+      "file" : "workouts/squash-4-ladder-figure-eight.overtone",
+      "id" : "squash-4-ladder-figure-eight",
+      "seconds" : 389,
+      "title" : "Squash solo - Ladder: Figure of Eight"
+    },
+    {
+      "activity" : "squash",
+      "artwork" : "artwork/squash-5-ladder-side-to-side.jpg",
+      "description" : "Side wall to side wall in fifteen levels, from single drives to continuous volleys, moving up and down the court on the way. Based on The Pursuit of Squash.",
+      "exercises" : 16,
+      "file" : "workouts/squash-5-ladder-side-to-side.overtone",
+      "id" : "squash-5-ladder-side-to-side",
+      "seconds" : 391,
+      "title" : "Squash solo - Ladder: Side to Side"
+    },
+    {
+      "activity" : "squash",
+      "artwork" : "artwork/squash-6-ladder-volley.jpg",
+      "description" : "The volley in ten levels, from volleys close to the front wall to volleys from the short line, then the volley drop. Based on The Pursuit of Squash.",
+      "exercises" : 11,
+      "file" : "workouts/squash-6-ladder-volley.overtone",
+      "id" : "squash-6-ladder-volley",
+      "seconds" : 287,
+      "title" : "Squash solo - Ladder: Volleys"
+    }
+  ]
+}
