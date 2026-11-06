@@ -50,42 +50,6 @@
 @define [easy back]: @random [easy back left], [easy back right]
 @define [easy all]: @random [easy front], [easy middle], [easy back]
 
-// Slow pace.
-@define [slow front left]:
-  @say{pan -0.85} Front left
-  +0:02.6 [beep]
-  +0:03
-
-@define [slow front right]:
-  @say{pan 0.85} Front right
-  +0:02.6 [beep]
-  +0:03
-
-@define [slow middle left]:
-  @say{pan -0.85} Middle left
-  +0:01.6 [beep]
-  +0:02.2
-
-@define [slow middle right]:
-  @say{pan 0.85} Middle right
-  +0:01.6 [beep]
-  +0:02.2
-
-@define [slow back left]:
-  @say{pan -0.85} Back left
-  +0:02.4 [beep]
-  +0:02.8
-
-@define [slow back right]:
-  @say{pan 0.85} Back right
-  +0:02.4 [beep]
-  +0:02.8
-
-@define [slow front]: @random [slow front left], [slow front right]
-@define [slow middle]: @random [slow middle left], [slow middle right]
-@define [slow back]: @random [slow back left], [slow back right]
-@define [slow all]: @random [slow front], [slow middle], [slow back]
-
 // Medium pace.
 @define [medium front left]:
   @say{pan -0.85} Front left
@@ -97,30 +61,7 @@
   +0:02.1 [beep]
   +0:02.4
 
-@define [medium middle left]:
-  @say{pan -0.85} Middle left
-  +0:01.3 [beep]
-  +0:01.7
-
-@define [medium middle right]:
-  @say{pan 0.85} Middle right
-  +0:01.3 [beep]
-  +0:01.7
-
-@define [medium back left]:
-  @say{pan -0.85} Back left
-  +0:01.9 [beep]
-  +0:02.2
-
-@define [medium back right]:
-  @say{pan 0.85} Back right
-  +0:01.9 [beep]
-  +0:02.2
-
 @define [medium front]: @random [medium front left], [medium front right]
-@define [medium middle]: @random [medium middle left], [medium middle right]
-@define [medium back]: @random [medium back left], [medium back right]
-@define [medium all]: @random [medium front], [medium middle], [medium back]
 
 // Fast pace.
 @define [fast front left]:
@@ -492,4 +433,3 @@ on the beep, and sprint back to the T for the next call.
 ## Finish
 +0:01.5 That's session B. Well done.
 --- 0:01
-

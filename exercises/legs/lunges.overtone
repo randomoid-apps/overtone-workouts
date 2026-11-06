@@ -1,0 +1,11 @@
+@include ../../shared/sounds.overtone
+
+## Lunges
+Lunges. Step forward until both knees are at a right angle, alternating legs.
++0:00.5 [countdown]
+--- 0:30
+0:00 [go]
+0:15 Halfway. Front knee over the ankle.
+-0:05 Five seconds.
+---
+[stop]

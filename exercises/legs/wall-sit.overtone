@@ -1,0 +1,11 @@
+@include ../../shared/sounds.overtone
+
+## Wall sit
+Wall sit. Back flat against the wall, knees bent to a right angle.
++0:00.5 [countdown]
+--- 0:30
+0:00 [go]
+0:15 Halfway. Keep the thighs level.
+-0:05 Five seconds.
+---
+[stop]

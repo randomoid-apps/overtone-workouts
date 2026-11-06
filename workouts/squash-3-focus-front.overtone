@@ -61,30 +61,7 @@
   +0:02.6 [beep]
   +0:03
 
-@define [slow middle left]:
-  @say{pan -0.85} Middle left
-  +0:01.6 [beep]
-  +0:02.2
-
-@define [slow middle right]:
-  @say{pan 0.85} Middle right
-  +0:01.6 [beep]
-  +0:02.2
-
-@define [slow back left]:
-  @say{pan -0.85} Back left
-  +0:02.4 [beep]
-  +0:02.8
-
-@define [slow back right]:
-  @say{pan 0.85} Back right
-  +0:02.4 [beep]
-  +0:02.8
-
 @define [slow front]: @random [slow front left], [slow front right]
-@define [slow middle]: @random [slow middle left], [slow middle right]
-@define [slow back]: @random [slow back left], [slow back right]
-@define [slow all]: @random [slow front], [slow middle], [slow back]
 
 // Medium pace.
 @define [medium front left]:
@@ -97,16 +74,6 @@
   +0:02.1 [beep]
   +0:02.4
 
-@define [medium middle left]:
-  @say{pan -0.85} Middle left
-  +0:01.3 [beep]
-  +0:01.7
-
-@define [medium middle right]:
-  @say{pan 0.85} Middle right
-  +0:01.3 [beep]
-  +0:01.7
-
 @define [medium back left]:
   @say{pan -0.85} Back left
   +0:01.9 [beep]
@@ -118,9 +85,7 @@
   +0:02.2
 
 @define [medium front]: @random [medium front left], [medium front right]
-@define [medium middle]: @random [medium middle left], [medium middle right]
 @define [medium back]: @random [medium back left], [medium back right]
-@define [medium all]: @random [medium front], [medium middle], [medium back]
 
 // Fast pace.
 @define [fast front left]:
@@ -157,32 +122,6 @@
 @define [fast middle]: @random [fast middle left], [fast middle right]
 @define [fast back]: @random [fast back left], [fast back right]
 @define [fast all]: @random [fast front], [fast middle], [fast back]
-
-// The middle with the stance to play it in, at slow pace. An open stance is a rushed ball, so its beep
-// comes sooner.
-@define [slow open middle left]:
-  @say{pan -0.85} Open, middle left.
-  +0:01.1 [beep]
-  +0:02.2
-
-@define [slow closed middle left]:
-  @say{pan -0.85} Closed, middle left.
-  +0:01.6 [beep]
-  +0:02.2
-
-@define [slow open middle right]:
-  @say{pan 0.85} Open, middle right.
-  +0:01.1 [beep]
-  +0:02.2
-
-@define [slow closed middle right]:
-  @say{pan 0.85} Closed, middle right.
-  +0:01.6 [beep]
-  +0:02.2
-
-@define [slow stance middle]:
-  @random [slow open middle left], [slow closed middle left],
-    [slow open middle right], [slow closed middle right]
 
 @define [start]:
   @tone{pitch 988 Hz, length 0:00.15, volume 0.5}
@@ -467,4 +406,3 @@ call.
 ## Finish
 +0:01.5 That's the focus session. Well done.
 --- 0:01
-

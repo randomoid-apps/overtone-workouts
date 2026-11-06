@@ -204,6 +204,16 @@ A setting's value can carry on over the next lines if they start with two
 spaces. The voice isn't a setting: it's chosen, with the speed, as the
 script is added.
 
+## Including other files
+
+`@include ../shared/sounds.overtone` puts that file's lines in at that
+point, as they are, with its path relative to the file with the
+`@include`; `@artwork` can name an image file the same way. A workout
+here can include exercises from `exercises/`, and an exercise includes
+the sounds it plays. The catalog tool puts each workout together as one
+file before it's published, leaving out definitions nothing plays and
+the copies of sounds every exercise includes, as the app needs one file.
+
 ## How the audio is laid out
 
 Nothing in the script says how long a line takes to say: that depends on

@@ -1,0 +1,11 @@
+@include ../../shared/sounds.overtone
+
+## Reverse lunges
+Reverse lunges. Step back until both knees are at a right angle, alternating legs.
++0:00.5 [countdown]
+--- 0:40
+0:00 [go]
+0:20 Halfway. Keep the chest up.
+-0:10 Ten seconds.
+---
+[stop]

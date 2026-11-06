@@ -1,0 +1,12 @@
+@include ../../shared/sounds.overtone
+
+## Push-ups
+@track Reps
+Push-ups. Hands under the shoulders, body in a straight line. Count them.
++0:00.5 [countdown]
+--- 0:30
+0:00 [go]
+0:15 Halfway. Drop to your knees if you need to.
+-0:05 Five seconds.
+---
+[stop]

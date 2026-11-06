@@ -1,0 +1,12 @@
+@include ../../shared/sounds.overtone
+
+## Push-up and rotation
+Push-up and rotation. After each push-up, turn into a side plank with one arm to the ceiling. Alternate
+sides.
++0:00.5 [countdown]
+--- 0:30
+0:00 [go]
+0:15 Halfway. Keep the hips high as you turn.
+-0:05 Five seconds.
+---
+[stop]

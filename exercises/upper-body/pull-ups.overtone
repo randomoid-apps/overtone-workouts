@@ -1,0 +1,8 @@
+@include ../../shared/sounds.overtone
+
+## Pull-ups
+@ladder
+@track Reps
+Pull-ups. As many as you can, then tap Next.
++0:00.5 [countdown]
+[go]

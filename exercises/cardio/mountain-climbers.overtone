@@ -1,0 +1,11 @@
+@include ../../shared/sounds.overtone
+
+## Mountain climbers
+Mountain climbers. In a push-up position, drive the knees to the chest in turn.
++0:00.5 [countdown]
+--- 0:40
+0:00 [go]
+0:20 Halfway. Hips level.
+-0:10 Ten seconds.
+---
+[stop]

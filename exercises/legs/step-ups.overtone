@@ -1,0 +1,11 @@
+@include ../../shared/sounds.overtone
+
+## Step-ups
+Step-ups onto the chair. Step up with one leg, then the other, and down the same way.
++0:00.5 [countdown]
+--- 0:30
+0:00 [go]
+0:15 Halfway. Lead with the other leg.
+-0:05 Five seconds.
+---
+[stop]

@@ -1,0 +1,11 @@
+@include ../../shared/sounds.overtone
+
+## High knees
+High knees. Run on the spot, knees up to hip height.
++0:00.5 [countdown]
+--- 0:30
+0:00 [go]
+0:15 Halfway. Drive the arms.
+-0:05 Five seconds.
+---
+[stop]

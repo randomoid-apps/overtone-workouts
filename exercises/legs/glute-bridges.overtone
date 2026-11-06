@@ -1,0 +1,11 @@
+@include ../../shared/sounds.overtone
+
+## Glute bridges
+Glute bridges. On your back, feet flat. Lift the hips and pause at the top.
++0:00.5 [countdown]
+--- 0:45
+0:00 [go]
+0:22.5 Halfway. Squeeze at the top.
+-0:10 Ten seconds.
+---
+[stop]

@@ -1,0 +1,16 @@
+// The tones exercises play: [go] as one starts, [stop] as it ends, and [countdown] into it.
+
+@define [go]:
+  @tone{pitch 988 Hz, length 0:00.15, volume 0.5}
+  +0:00.05 @tone{pitch 1318 Hz, length 0:00.45, volume 0.5}
+
+@define [stop]:
+  @tone{pitch 440 Hz, length 0:00.25, volume 0.5}
+  +0:00.15 @tone{pitch 440 Hz, length 0:00.25, volume 0.5}
+
+// Three ticks a second apart, ending a second after the last: the exercise starts on the beat.
+@define [countdown]:
+  @tone{pitch 880 Hz, length 0:00.12, volume 0.5}
+  +0:00.88 @tone{pitch 880 Hz, length 0:00.12, volume 0.5}
+  +0:00.88 @tone{pitch 880 Hz, length 0:00.12, volume 0.5}
+  +0:00.88

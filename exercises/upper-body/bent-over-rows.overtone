@@ -1,0 +1,12 @@
+@include ../../shared/sounds.overtone
+
+## Bent-over rows
+@track Reps
+Bent-over rows. Hinge at the hips, back flat, and pull the weights to your ribs. Count them.
++0:00.5 [countdown]
+--- 0:45
+0:00 [go]
+0:22.5 Halfway. Squeeze the shoulder blades.
+-0:10 Ten seconds.
+---
+[stop]
