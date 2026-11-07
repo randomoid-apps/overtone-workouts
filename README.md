@@ -12,7 +12,7 @@ rests, repeats and holds. See the [script format](SCRIPT-FORMAT.md) for how to w
 | Folder | What's in it |
 |---|---|
 | `workouts/` | One script per workout, which can `@include` exercises and shared files |
-| `exercises/<group>/` | One script per exercise, a single chapter, grouped by what it works (`legs`, `core`, `upper-body`, `full-body`, `cardio`) |
+| `exercises/<group>/` | One script per exercise, a single chapter, grouped by what it works (`legs`, `core`, `upper-body`, `full-body`, `cardio`) or the sport it's for (`squash`) |
 | `shared/` | What exercises and workouts include, such as the tones in `sounds.overtone` |
 | `images/` | Artwork that workouts name |
 | `drafts/` | Workouts being written: checked like the rest, but not published |
@@ -52,7 +52,8 @@ Squats. Feet shoulder-width apart, sit back, chest up.
 ```
 
 It's one chapter, whose title is the exercise's name. Its first line says the name and then how to
-do it, which New Workout uses as its tip. Its timed part (`--- 0:30`, 5 seconds to 10 minutes in
+do it, which New Workout uses as its tip, leaving out the name and a length said after it
+("Ghosting, front corners, three minutes."). Its timed part (`--- 0:30`, 5 seconds to 10 minutes in
 steps of 5) is how long it usually lasts; for as many as you can, use `@ladder` and no timed part,
 so the app waits until the listener taps Next. `@track Reps` asks for a number as it finishes.
 

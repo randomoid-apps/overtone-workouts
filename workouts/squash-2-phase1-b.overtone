@@ -6,242 +6,29 @@
 @minimum gap 0:00.8
 @workout squash
 @artwork ../images/squash.jpg
-@include ../shared/squash.overtone
 
 ## Intro
 Phase one, session B: volleys and the front court. Drills with a phase two target say so. Hit every
 target in two sessions back to back to move up.
 
-## Movement warm-up (4 min)
-[movement warm-up]
-
-## Figure of eight warm-up (3 min)
-[figure of eight]
-
-## Forehand short volleys (2 min)
-Forehand short volleys, two minutes. Within two metres of the front wall, on your forehand side, a
-metre or so off the side wall. Soft volleys above the service line, hitting each one again before it
-bounces. Let it bounce if you lose it.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:15 Racket high. Punch, don't swing.
-1:00 Shoulders to the side wall.
--0:10 Ten seconds.
----
-[stop]
-
-## Backhand short volleys (2 min)
-Backhand short volleys, two minutes. Within two metres of the front wall, on your backhand side, a
-metre or so off the side wall. Soft volleys above the service line, hitting each one again before it
-bounces. Let it bounce if you lose it.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:15 Racket high. Punch, then extend up.
-1:00 Firm wrist.
--0:10 Ten seconds.
----
-[stop]
-
-## Ghosting: volley positions (3 min)
-Ghosting, volley positions, three minutes. Slow pace, with the stance in each call. Closed is a step
-across with your far foot. Open is one step with your near foot, and comes quicker, like a rushed
-ball. Volley on the beep, and get back to the T for the next call.
-+0:00.5 [countdown]
---- 3:00
-0:00 [go]
-0:01 @random{fill, no repeats} [slow stance middle]
-0:50 Rest. Racket up, ready for the volley.
--0:03 [countdown]
-1:05 @random{fill, no repeats} [slow stance middle]
-1:54 Rest. Backhand in an open stance? Rotate more.
--0:03 [countdown]
-2:09 @random{fill, no repeats} [slow stance middle]
----
-[stop]
-
-## Forehand to backhand volleys (3 min)
-Forehand to backhand volleys, three minutes. In the middle, two metres from the front wall: forehand
-across to your backhand, backhand back across, hitting around the service line just off centre. Let
-it bounce for the first half. Phase two target: twenty volleys in one rally, without a break.
-+0:00.5 [countdown]
---- 3:00
-0:00 [go]
-0:15 Short swings. Racket up early.
-1:30 Now on the volley. Target: twenty without a break. Lose it? Restart with a bounce, and count from zero.
-2:20 Keep the rhythm. Watch the ball.
--0:10 Ten seconds.
----
-[stop]
-
-// The ladder volleys are played from the line of the player's current volley ladder level, so the
-// session moves back with the ladder.
-## Forehand ladder volleys (2 min)
-Forehand ladder volleys, two minutes. Behind the tape for your volley ladder level: halfway to the
-short line, three-quarters of the way, or the short line itself. A metre or so off the side wall,
-volleying above the service line without a bounce. Let it bounce if you lose it. Phase two target:
-twenty without a break from the three-quarter line.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:15 Racket above the ball. Come down on it.
-1:00 Follow through to the front wall.
--0:10 Ten seconds.
----
-[stop]
-
-## Backhand ladder volleys (2 min)
-Backhand ladder volleys, two minutes. Behind the tape for your volley ladder level: halfway to the
-short line, three-quarters of the way, or the short line itself. A metre or so off the side wall,
-volleying above the service line without a bounce. Let it bounce if you lose it. Phase two target:
-twenty without a break from the three-quarter line.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:15 Racket high. Punch.
-1:00 Shoulders to the side wall.
--0:10 Ten seconds.
----
-[stop]
-
-## Forehand volley heights (2 min)
-Forehand volley heights, two minutes. Halfway between the front wall and the short line, a metre off
-the side wall. Three straight volleys in turn: just above the service line, on it, then just above
-the tin. After the low one, let it bounce and start again.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:15 Above the line. On the line. Above the tin.
-0:55 Same punch every time. Only the target changes.
-1:30 Racket above the ball. Come down on it.
--0:10 Ten seconds.
----
-[stop]
-
-## Backhand volley heights (2 min)
-Backhand volley heights, two minutes. Halfway between the front wall and the short line, a metre off
-the side wall. Three straight volleys in turn: just above the service line, on it, then just above
-the tin. After the low one, let it bounce and start again.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:15 Above the line. On the line. Above the tin.
-0:55 Same punch every time. Only the target changes.
-1:30 Racket high. Firm wrist.
--0:10 Ten seconds.
----
-[stop]
-
-## Ghosting: front corners with drops (3 min)
-Ghosting, front corners with drops, three minutes. Medium pace. Lunge closed and play a soft shadow
-drop on the beep, then get back to the T for the next call.
-+0:00.5 [countdown]
---- 3:00
-0:00 [go]
-0:01 @random{fill, at most 2 in a row} [medium front]
-0:47 Rest. Racket up early. Open face.
--0:03 [countdown]
-1:02 @random{fill, at most 2 in a row} [medium front]
-1:48 Rest. Stay low through the lunge.
--0:03 [countdown]
-2:03 @random{fill, at most 2 in a row} [medium front]
----
-[stop]
-
-## Forehand drops (2 min)
-Forehand drops, two minutes. Two halves. First, counter-drops: two metres from the front wall, close
-to the side wall, soft drops just above the tin, kept going. Then feed from just behind the short
-line, play one drop, and let it go. Phase two target: six out of ten with the second bounce before
-the short line, misses in between allowed.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:15 Open face. Soft hands.
-1:00 Now feed, drop, and let it go. Score ten.
-1:30 Step in with your front foot. Stay low.
--0:10 Ten seconds.
----
-[stop]
-
-## Backhand drops (2 min)
-Backhand drops, two minutes. Two halves. First, counter-drops: two metres from the front wall, close
-to the side wall, soft drops just above the tin, kept going. Then feed from just behind the short
-line, play one drop, and let it go. Phase two target: six out of ten with the second bounce before
-the short line, misses in between allowed.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:15 Open face. Soft hands.
-1:00 Now feed, drop, and let it go. Score ten.
-1:30 Step in with your front foot. Stay low.
--0:10 Ten seconds.
----
-[stop]
-
-## Serve then T (3 min)
-Serve then T, three minutes. Start in the right box. After each serve, move to the T and split step,
-ready to volley the return. Switch boxes halfway.
-+0:00.5 [countdown]
---- 3:00
-0:00 [go]
-0:15 Aim just left of centre, so it touches the side wall.
-1:30 Switch to the left box. Aim just right of centre.
-2:10 Split step. Ready to volley.
--0:10 Ten seconds.
----
-[stop]
-
-## Forehand length check (2 min)
-Forehand length check, two minutes. Straight drives to length from behind the short line: a racket
-head above the service line, first bounce behind the service box. Score each set of ten by how many
-bounce first behind the short line. Reset with a softer one whenever you need to. Resets don't
-count. Phase two target: eight out of ten, misses in between allowed.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:20 Racket up early. Finish high.
-1:10 Count them. Target: eight out of ten.
--0:10 Ten seconds.
----
-[stop]
-
-## Backhand length check (2 min)
-Backhand length check, two minutes. Straight drives to length from behind the short line: a racket
-head above the service line, first bounce behind the service box. Score each set of ten by how many
-bounce first behind the short line. Reset with a softer one whenever you need to. Resets don't
-count. Phase two target: eight out of ten, misses in between allowed.
-+0:00.5 [countdown]
---- 2:00
-0:00 [go]
-0:20 Racket up early. Finish high.
-1:10 Count them. Target: eight out of ten.
--0:10 Ten seconds.
----
-[stop]
-
-## Ghosting: six points (3 min)
-Ghosting, six points, three minutes. Fast pace, all six positions. Phase two target: every rep at
-the beep with a full swish, and form that holds to the last round. Split step on every call, swing
-on the beep, and sprint back to the T for the next call.
-+0:00.5 [countdown]
---- 3:00
-0:00 [go]
-0:01 @random{fill, no repeats} [fast all]
-0:33 Rest. Stay engaged. Low and wide at the T.
--0:03 [countdown]
-0:48 @random{fill, no repeats} [fast all]
-1:20 Rest. Feet pointing forward. Knees bent.
--0:03 [countdown]
-1:35 @random{fill, no repeats} [fast all]
-2:07 Rest. Last round. Stay engaged.
--0:03 [countdown]
-2:22 @random{fill, no repeats} [fast all]
----
-[stop]
-
-## Cool-down (3 min)
-[cool-down]
+@include ../exercises/squash/movement-warm-up.overtone
+@include ../exercises/squash/figure-of-eight-warm-up.overtone
+@include ../exercises/squash/forehand-short-volleys.overtone
+@include ../exercises/squash/backhand-short-volleys.overtone
+@include ../exercises/squash/ghosting-volley-positions.overtone
+@include ../exercises/squash/forehand-to-backhand-volleys.overtone
+@include ../exercises/squash/forehand-ladder-volleys.overtone
+@include ../exercises/squash/backhand-ladder-volleys.overtone
+@include ../exercises/squash/forehand-volley-heights.overtone
+@include ../exercises/squash/backhand-volley-heights.overtone
+@include ../exercises/squash/ghosting-front-corners-with-drops.overtone
+@include ../exercises/squash/forehand-drops.overtone
+@include ../exercises/squash/backhand-drops.overtone
+@include ../exercises/squash/serve-then-t.overtone
+@include ../exercises/squash/forehand-length-check.overtone
+@include ../exercises/squash/backhand-length-check.overtone
+@include ../exercises/squash/ghosting-six-points.overtone
+@include ../exercises/squash/cool-down.overtone
 
 ## Finish
 +0:01.5 That's session B. Well done.

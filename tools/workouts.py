@@ -494,12 +494,19 @@ def first_line(chapter):
     return lines[0]["kind"][1] if lines and lines[0]["kind"][0] == "say" else None
 
 
+# How long a drill lasts, as its first line says it: "three minutes", "two and a half minutes".
+SPOKEN_LENGTH = r"(?:one|two|three|four|five|six|seven|eight|nine|ten|fifteen|twenty|thirty|forty|forty-five|fifty)" \
+    r"(?: and a half)? (?:minutes?|seconds?)"
+
+
 def tip(line, name):
-    """`line` without `name` at its start: "Squats. Chest up." is "Chest up."."""
+    """`line` without `name` at its start, or the length after it, which the app says or sets itself:
+    "Squats. Chest up." and "Ghosting, front corners, three minutes. Slow pace." are "Chest up." and
+    "Slow pace."."""
     if line is None:
         return None
-    if line.lower().startswith(name.lower()):
-        line = line[len(name):].lstrip(".:,;! ")
+    named = r"\W+".join(map(re.escape, re.findall(r"\w+", name)))
+    line = re.sub(rf"^(?:{named}\W*)?(?:{SPOKEN_LENGTH}[.,;:]\W*)?(?=\w|$)", "", line, count=1, flags=re.I)
     return line or None
 
 

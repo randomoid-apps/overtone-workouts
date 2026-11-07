@@ -1,0 +1,18 @@
+@include ../../shared/squash.overtone
+
+## Ghosting: volley positions
+Ghosting, volley positions, three minutes. Slow pace, with the stance in each call. Closed is a step
+across with your far foot. Open is one step with your near foot, and comes quicker, like a rushed
+ball. Volley on the beep, and get back to the T for the next call.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:01 @random{fill, no repeats} [slow stance middle]
+0:50 Rest. Racket up, ready for the volley.
+-0:03 [countdown]
+1:05 @random{fill, no repeats} [slow stance middle]
+1:54 Rest. Backhand in an open stance? Rotate more.
+-0:03 [countdown]
+2:09 @random{fill, no repeats} [slow stance middle]
+---
+[stop]

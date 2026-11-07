@@ -1,0 +1,18 @@
+@include ../../shared/squash.overtone
+
+## Ghosting: back to front
+Ghosting, back to front, three minutes. Medium pace, back and front corners. This is the rally that
+beats you: pushed deep, then a drop. Get fully back to the T after every back corner, so the front
+is in reach. Swing on the beep, and get back to the T for the next call.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:01 @random{fill, no repeats} [medium back], [medium front]
+0:47 Rest. Don't hang deep. Back to the T every time.
+-0:03 [countdown]
+1:02 @random{fill, no repeats} [medium back], [medium front]
+1:48 Rest. Split step, then attack the front.
+-0:03 [countdown]
+2:03 @random{fill, no repeats} [medium back], [medium front]
+---
+[stop]

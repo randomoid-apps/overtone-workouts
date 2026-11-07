@@ -1,0 +1,18 @@
+@include ../../shared/squash.overtone
+
+## Movement warm-up
+Movement warm-up. Two minutes of moves as I call them, then two minutes of split steps at the T,
+taking two steps toward each call.
++0:00.5 [countdown]
+--- 4:00
+0:00 [go]
+0:01 Jog round the court.
+0:20 Side-steps.
+0:40 Lunges, alternating legs.
+1:00 Open and close the hips.
+1:20 High knees.
+1:40 Arm circles, both directions.
+2:00 Back to the T. Split steps now.
+2:04 @random{fill, no repeats} [easy all]
+---
+[stop]

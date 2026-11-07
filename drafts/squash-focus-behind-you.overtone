@@ -12,11 +12,8 @@
 Focus session: the ball behind you. Go with the ball, turn to face the corner, and hit it high and
 straight. Play the back corner ladder alongside it.
 
-## Movement warm-up (4 min)
-[movement warm-up]
-
-## Figure of eight warm-up (3 min)
-[figure of eight]
+@include ../exercises/squash/movement-warm-up.overtone
+@include ../exercises/squash/figure-of-eight-warm-up.overtone
 
 // A ball that has got past you, for a right-hander: the right foot lands last on both sides, with the
 // left heel up so the hips can turn. On the forehand that's an open stance, facing the back corner off
@@ -216,8 +213,7 @@ step on every call, swing on the beep, and sprint back to the T for the next cal
 ---
 [stop]
 
-## Cool-down (3 min)
-[cool-down]
+@include ../exercises/squash/cool-down.overtone
 
 ## Finish
 +0:01.5 That's the focus session. Well done.

@@ -1,0 +1,21 @@
+@include ../../shared/squash.overtone
+
+## Ghosting: six points
+Ghosting, six points, three minutes. Fast pace, all six positions. Phase two target: every rep at
+the beep with a full swish, and form that holds to the last round. Split step on every call, swing
+on the beep, and sprint back to the T for the next call.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:01 @random{fill, no repeats} [fast all]
+0:33 Rest. Stay engaged. Low and wide at the T.
+-0:03 [countdown]
+0:48 @random{fill, no repeats} [fast all]
+1:20 Rest. Feet pointing forward. Knees bent.
+-0:03 [countdown]
+1:35 @random{fill, no repeats} [fast all]
+2:07 Rest. Last round. Stay engaged.
+-0:03 [countdown]
+2:22 @random{fill, no repeats} [fast all]
+---
+[stop]

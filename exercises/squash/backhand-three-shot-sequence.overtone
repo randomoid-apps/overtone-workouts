@@ -1,0 +1,14 @@
+@include ../../shared/squash.overtone
+
+## Backhand three-shot sequence
+Backhand three-shot sequence, two minutes. Straight drives in turn. Soft, on the service line,
+bouncing in the service box. Medium, a racket head above it, bouncing behind the box. Then hard,
+just under the service line, so it comes off the back wall.
++0:00.5 [countdown]
+--- 2:00
+0:00 [go]
+0:20 Soft. Medium. Hard.
+1:10 Same preparation every time. Only the swing speed changes.
+-0:10 Ten seconds.
+---
+[stop]

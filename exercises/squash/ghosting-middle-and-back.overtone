@@ -1,0 +1,17 @@
+@include ../../shared/squash.overtone
+
+## Ghosting: middle and back
+Ghosting, middle and back, three minutes. Medium pace. Back corners via the box corner, middle open
+or closed. Swing on the beep, and get back to the T for the next call.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:01 @random{fill, no repeats} [medium middle], [medium back]
+0:47 Rest. Plant at forty-five degrees at the back.
+-0:03 [countdown]
+1:02 @random{fill, no repeats} [medium middle], [medium back]
+1:48 Rest. Split step on every call.
+-0:03 [countdown]
+2:03 @random{fill, no repeats} [medium middle], [medium back]
+---
+[stop]
