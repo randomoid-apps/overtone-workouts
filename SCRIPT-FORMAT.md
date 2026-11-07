@@ -210,8 +210,8 @@ script is added.
 point, as they are, with its path relative to the file with the
 `@include`; `@artwork` can name an image file the same way. A workout
 here can include exercises from `exercises/`, and an exercise includes
-the sounds it plays. The app puts a workout together as one file as
-it adds it, leaving out definitions nothing plays and the copies of
+the sounds it plays. Each workout is put together as one file as it's
+published, leaving out definitions nothing plays and the copies of
 sounds every exercise includes; `python3 tools/workouts.py expand` does
 the same, to try one before sending it.
 

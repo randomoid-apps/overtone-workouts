@@ -7,9 +7,9 @@
 
 `expand` writes a script as one file, with what it includes put in, its artwork as a data URI, and
 the definitions nothing plays left out: what Overtone opens. `check` reads every workout, draft and
-exercise, and stops at the first mistake. `catalog` checks them too, then writes catalog.json and
-the artwork of workouts that have theirs as a data URI to artwork/, which GitHub Pages serves with
-the rest.
+exercise, and stops at the first mistake. `catalog` checks them too, then writes each workout put
+together to published/, the artwork of those that have theirs as a data URI to artwork/, and
+catalog.json, which GitHub Pages serves with the rest, and the app reads.
 
 The format is SCRIPT-FORMAT.md. This reads enough of it to check what the catalog relies on and
 what's easy to get wrong; Overtone reads every script fully before playing it.
@@ -518,7 +518,7 @@ def workout_entry(path, script, artwork):
         "activity": settings.get("workout"),
         "exercises": sum(1 for c in script["chapters"] if "rest" not in c["settings"]),
         "seconds": round(estimated_duration(script)),
-        "file": path.relative_to(ROOT).as_posix(),
+        "file": f"published/{path.name}",
         "artwork": artwork,
     }
     return {k: v for k, v in entry.items() if v is not None}
@@ -552,6 +552,12 @@ def scripts(directory):
     return sorted((ROOT / directory).glob("*.overtone"), key=lambda p: p.name)
 
 
+def published(path):
+    """`path` put together as one file, as the app adds it. The app speaks at the speed chosen with
+    the voice, so a script's own rate, which renderers use, is left out."""
+    return "".join(line for line in expand(path).splitlines(keepends=True) if not line.startswith("@speech rate "))
+
+
 def read(path, title=None):
     name = path.relative_to(ROOT).as_posix()
     text = expand(path)
@@ -572,7 +578,6 @@ def workout_artwork(path, script, artwork_dir):
     if not match:
         raise ScriptError(f"{path.relative_to(ROOT)}: its artwork should be a PNG or JPEG")
     if artwork_dir:
-        artwork_dir.mkdir(exist_ok=True)
         file = artwork_dir / f"{path.stem}.{'png' if match.group(1) == 'png' else 'jpg'}"
         file.write_bytes(base64.b64decode(match.group(2)))
         return file.relative_to(ROOT).as_posix()
@@ -580,13 +585,17 @@ def workout_artwork(path, script, artwork_dir):
 
 
 def catalog(write):
-    artwork_dir = ROOT / "artwork"
-    if write and artwork_dir.exists():
-        for old in artwork_dir.iterdir():
-            old.unlink()
+    artwork_dir, published_dir = ROOT / "artwork", ROOT / "published"
+    if write:
+        for directory in (artwork_dir, published_dir):
+            directory.mkdir(exist_ok=True)
+            for old in directory.iterdir():
+                old.unlink()
     workouts = []
     for path in scripts("workouts"):
         _, script = read(path)
+        if write:
+            (published_dir / path.name).write_text(published(path), encoding="utf-8")
         workouts.append(workout_entry(path, script, workout_artwork(path, script, artwork_dir if write else None)))
         minutes = round(workouts[-1]["seconds"] / 60)
         print(f"{path.name}: {script['title']}, about {minutes} min, {workouts[-1]['exercises']} exercises")

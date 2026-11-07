@@ -63,9 +63,10 @@ suitable for all ages.
 ## How it's published
 
 On every pull request, a GitHub Action (`.github/workflows/publish.yml`) checks every workout,
-draft and exercise with `tools/workouts.py`. On main, it also writes `catalog.json` (each workout's
-title, length and exercises, and the exercise list) and publishes the repository with it on GitHub
-Pages, where the app reads it. Nothing generated is kept in the repository.
+draft and exercise with `tools/workouts.py`. On main, it also puts each workout together as one file
+in `published/`, as the app adds it, writes `catalog.json` (each workout's title, length and
+exercises, and the exercise list), and publishes the repository with them on GitHub Pages, where
+the app reads them. Nothing generated is kept in the repository.
 
 ## Licence
 

@@ -1,5 +1,6 @@
-# Checks every workout and exercise on each pull request. On main, also writes catalog.json and the
-# artwork, and publishes the repository with them on GitHub Pages, where the app reads them.
+# Checks every workout and exercise on each pull request. On main, also puts each workout together
+# in published/, writes catalog.json and the artwork, and publishes the repository with them on
+# GitHub Pages, where the app reads them.
 name: Publish
 
 on:
