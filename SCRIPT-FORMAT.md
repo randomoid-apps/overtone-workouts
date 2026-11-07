@@ -362,5 +362,5 @@ changed.
 
 The voices are Apple's, installed on the iPhone, or Kokoro's: natural
 neural voices in American English that run on the iPhone. Kokoro's
-voices are downloaded, and deleted, together in Settings → Voice: about
+voices are downloaded, and deleted, together in Overtone's Settings: about
 255 MB.
