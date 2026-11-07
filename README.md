@@ -16,7 +16,7 @@ rests, repeats and holds. See the [script format](SCRIPT-FORMAT.md) for how to w
 | `shared/` | What exercises and workouts include, such as the tones in `sounds.overtone` |
 | `images/` | Artwork that workouts name |
 | `drafts/` | Workouts being written: checked like the rest, but not published |
-| `published/`, `artwork/`, `catalog.json` | Written from the rest by Overtone's `scripts/workout_catalog.sh`, and what the app reads. Don't edit them |
+| `tools/workouts.py` | Puts a workout together as one file, checks everything, and writes the catalog |
 
 ## Adding a workout
 
@@ -28,8 +28,9 @@ Workouts from anyone are welcome. Send a pull request that adds one file to `wor
 3. Build it from exercises where you can: `@include ../exercises/legs/squats.overtone` puts that
    exercise in as it is, and lines straight after it carry on its chapter. Write any chapter of your
    own in the workout itself. The 7-minute workout is an example.
-4. Try it in Overtone first: put it together as one file with Overtone's
-   `scripts/render_script.sh --expand --remove-unused`, and open that on your iPhone.
+4. Check it with `python3 tools/workouts.py check`, then try it in Overtone: put it together as one
+   file with `python3 tools/workouts.py expand workouts/<name>.overtone > <name>.overtone`, and open
+   that on your iPhone.
 
 ## Adding an exercise
 
@@ -58,6 +59,13 @@ so the app waits until the listener taps Next. `@track Reps` asks for a number a
 Only send what you wrote yourself, or have permission to share under this repository's licence.
 Workouts are reviewed before they're merged, and the app shows them to everyone, so keep them
 suitable for all ages.
+
+## How it's published
+
+On every pull request, a GitHub Action (`.github/workflows/publish.yml`) checks every workout,
+draft and exercise with `tools/workouts.py`. On main, it also writes `catalog.json` (each workout's
+title, length and exercises, and the exercise list) and publishes the repository with it on GitHub
+Pages, where the app reads it. Nothing generated is kept in the repository.
 
 ## Licence
 
