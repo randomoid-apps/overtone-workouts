@@ -17,6 +17,7 @@ what's easy to get wrong; Overtone reads every script fully before playing it.
 import base64
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
 
@@ -551,6 +552,7 @@ def exercise_entry(path, script, name):
         "holds": True if holds else None,
         "tracked": chapter["settings"].get("track") or None,
         "group": group_title(path.parent.name),
+        "file": f"published/{name}",
     }
     return {k: v for k, v in entry.items() if v is not None}
 
@@ -595,9 +597,8 @@ def catalog(write):
     artwork_dir, published_dir = ROOT / "artwork", ROOT / "published"
     if write:
         for directory in (artwork_dir, published_dir):
-            directory.mkdir(exist_ok=True)
-            for old in directory.iterdir():
-                old.unlink()
+            shutil.rmtree(directory, ignore_errors=True)
+            directory.mkdir()
     workouts = []
     for path in scripts("workouts"):
         _, script = read(path)
@@ -617,6 +618,11 @@ def catalog(write):
             name = path.relative_to(ROOT).as_posix()
             _, script = read(path, title=path.stem)
             exercises.append(exercise_entry(path, script, name))
+            if write:
+                # With the exercise's name as its title, it opens as a workout of its own too.
+                file = published_dir / name
+                file.parent.mkdir(parents=True, exist_ok=True)
+                file.write_text(f"# {exercises[-1]['name']}\n" + published(path), encoding="utf-8")
     if write:
         document = {"version": CATALOG_VERSION, "workouts": workouts, "exercises": exercises}
         (ROOT / "catalog.json").write_text(json.dumps(document, indent=2, sort_keys=True, ensure_ascii=False) + "\n",
