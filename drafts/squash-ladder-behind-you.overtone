@@ -1,0 +1,168 @@
+# Squash solo - Ladder: Ball Behind You
+@description Hitting straight when the ball has got past you, in sixteen levels on the forehand and
+  backhand: from shadow swings in the stance, to balls dropped behind you, to moving back from the
+  T. Based on AR Proformance and Squash Originals.
+@speech rate 1.1
+@minimum gap 0:00.8
+@workout squash
+@artwork ../images/squash.jpg
+@include ../shared/squash.overtone
+
+## Intro
+Back corner ladder: hitting straight when the ball has got past you. Each level is played on the
+forehand in the back right, then the backhand in the back left. Play the chapter for your level and
+repeat it until you reach the target, then move on to the next. After a miss, count from zero.
+
+// Hitting straight from a ball that has got past you, from AR Proformance ("Do This To Hit The Ball When
+// It's Behind You": the stance, then soft high shots to the back of the service box) and Squash
+// Originals (going with the ball, dropping the racket head). Each level moves the ball further behind
+// the player, then adds the move to it. Each level is written out for both sides, as the stance differs.
+## Level 1A: Forehand, the stance, no ball
+@ladder
+Forehand, the stance, no ball. In the back right corner, halfway between the service box and the
+back wall, a racket and an arm off the side wall. Without a ball, set up in an open stance: face the
+back corner, right foot nearest the back wall and last to land, left heel up so your hips can turn.
+Racket set right back. Swing slowly: drop the racket head below the ball, swing up through it, and
+finish straight down the wall.
++0:00.7 Target: ten slow swings, every one with the feet, chest and finish right.
++0:00.7 Open stance, facing the corner. Left heel up.
++0:00.7 Finish down the wall, not into the middle.
+
+## Level 1B: Backhand, the stance, no ball
+@ladder
+Backhand, the stance, no ball. In the back left corner, halfway between the service box and the back
+wall, a racket and an arm off the side wall. Without a ball, set up in a closed stance: back turned
+toward the front wall, right foot stepping across toward the back corner and last to land, left heel
+up so your hips can turn. Racket set right back. Swing slowly: drop the racket head below the ball,
+swing up through it, and finish straight down the wall.
++0:00.7 Target: ten slow swings, every one with the feet, chest and finish right.
++0:00.7 Closed stance, right foot across. Left heel up.
++0:00.7 Finish down the wall, not into the middle.
+
+## Level 2A: Forehand, from a drop
+@ladder
+Forehand, from a drop. At the back of the right service box, a racket and an arm off the side wall.
+Set up in the stance, drop the ball a racket's length out toward the side wall, level with your
+right foot, let it bounce, and hit it soft and high straight down the wall, first bounce near the
+back of the service box. Catch it, set up again, and drop the next one.
++0:00.7 Target: five without a break, each bouncing first near the back of the service box.
++0:00.7 Soft and high. Height gets it deep.
++0:00.7 Racket head below the ball, then up through it.
+
+## Level 2B: Backhand, from a drop
+@ladder
+Backhand, from a drop. At the back of the left service box, a racket and an arm off the side wall.
+Set up in the stance, drop the ball a racket's length out toward the side wall, level with your
+right foot, let it bounce, and hit it soft and high straight down the wall, first bounce near the
+back of the service box. Catch it, set up again, and drop the next one.
++0:00.7 Target: five without a break, each bouncing first near the back of the service box.
++0:00.7 Soft and high. Height gets it deep.
++0:00.7 Racket head below the ball, then up through it.
+
+## Level 3A: Forehand, deeper
+@ladder
+Forehand, deeper. Move back, halfway between the service box and the back wall. Same stance, now
+with the ball dropped level with your right heel, further toward the back wall. Turn well, so the
+racket has room and doesn't catch the wall.
++0:00.7 Target: seven out of ten, straight, bouncing first behind the short line.
++0:00.7 Lower ball? Bend your knees, don't bend over.
++0:00.7 Balanced through the swing.
+
+## Level 3B: Backhand, deeper
+@ladder
+Backhand, deeper. Move back, halfway between the service box and the back wall. Same stance, now
+with the ball dropped level with your right heel, further toward the back wall. Turn well, so the
+racket has room and doesn't catch the wall.
++0:00.7 Target: seven out of ten, straight, bouncing first behind the short line.
++0:00.7 Lower ball? Bend your knees, don't bend over.
++0:00.7 Balanced through the swing.
+
+## Level 4A: Forehand, off the side wall
+@ladder
+Forehand, off the side wall. At the back of the right service box. Throw the ball against the side
+wall, a metre from the back wall, so it bounces behind you. Move back with it, alongside the box,
+not across into the ball, set up facing the corner, and play it straight and high.
++0:00.7 Target: seven out of ten, straight, bouncing first behind the short line.
++0:00.7 Go with the ball, not at it.
++0:00.7 Open stance, facing the corner.
+
+## Level 4B: Backhand, off the side wall
+@ladder
+Backhand, off the side wall. At the back of the left service box. Throw the ball against the side
+wall, a metre from the back wall, so it bounces behind you. Move back with it, alongside the box,
+not across into the ball, set up facing the corner, and play it straight and high.
++0:00.7 Target: seven out of ten, straight, bouncing first behind the short line.
++0:00.7 Go with the ball, not at it.
++0:00.7 Closed stance, right foot across.
+
+## Level 5A: Forehand, past you
+@ladder
+Forehand, past you. Just behind the short line on the right. Hit yourself a high, soft straight
+drive that bounces behind the service box and goes past you. Shuffle back alongside it, set up
+facing the corner, and play it straight and high. Collect it, and go again.
++0:00.7 Target: seven out of ten, straight, bouncing first behind the short line.
++0:00.7 First step a shuffle. Keep the court in view.
++0:00.7 Quick off the mark, then slow into the shot.
+
+## Level 5B: Backhand, past you
+@ladder
+Backhand, past you. Just behind the short line on the left. Hit yourself a high, soft straight drive
+that bounces behind the service box and goes past you. Shuffle back alongside it, set up facing the
+corner, and play it straight and high. Collect it, and go again.
++0:00.7 Target: seven out of ten, straight, bouncing first behind the short line.
++0:00.7 First step a shuffle. Keep the court in view.
++0:00.7 Quick off the mark, then slow into the shot.
+
+## Level 6A: Forehand, step in or turn
+@ladder
+Forehand, step in or turn. Just behind the short line on the right. Feed yourself straight drives
+without choosing their length, so some sit up in the box and some go past you. Short of you, get
+behind it and step in. Past you, turn and face the corner. Either way, play it straight.
++0:00.7 Target: ten in the right stance, seven of them bouncing first behind the short line.
++0:00.7 Easy ball? Step in. Beaten? Turn.
++0:00.7 Decide as it bounces.
+
+## Level 6B: Backhand, step in or turn
+@ladder
+Backhand, step in or turn. Just behind the short line on the left. Feed yourself straight drives
+without choosing their length, so some sit up in the box and some go past you. Short of you, get
+behind it and step in. Past you, turn and face the corner. Either way, play it straight.
++0:00.7 Target: ten in the right stance, seven of them bouncing first behind the short line.
++0:00.7 Easy ball? Step in. Beaten? Turn.
++0:00.7 Decide as it bounces.
+
+## Level 7A: Forehand, from the T
+@ladder
+Forehand, from the T. Start on the T. Hit a high, soft forehand onto the front wall, right of
+centre, so it goes deep down the right wall. Split step, move back with it, play it straight and
+high from the corner, then push back to the T and go again.
++0:00.7 Target: seven out of ten, back to the T after every one.
++0:00.7 Push off your right foot, back to the T.
++0:00.7 Hips to the front on the way back, chest turned.
+
+## Level 7B: Backhand, from the T
+@ladder
+Backhand, from the T. Start on the T. Hit a high, soft backhand onto the front wall, left of centre,
+so it goes deep down the left wall. Split step, move back with it, play it straight and high from
+the corner, then push back to the T and go again.
++0:00.7 Target: seven out of ten, back to the T after every one.
++0:00.7 Push off your right foot, back to the T.
++0:00.7 Hips to the front on the way back, chest turned.
+
+## Level 8A: Forehand, kept going
+@ladder
+Forehand, kept going. At the back of the right service box. Straight forehand drives, kept going,
+standing deep so each ball gets past you before you play it. Every one in the stance, facing the
+corner, high and soft enough to come back to you.
++0:00.7 Target: ten without a break.
++0:00.7 Higher and softer to keep it going.
++0:00.7 Same stance every time.
+
+## Level 8B: Backhand, kept going
+@ladder
+Backhand, kept going. At the back of the left service box. Straight backhand drives, kept going,
+standing deep so each ball gets past you before you play it. Every one in the stance, facing the
+corner, high and soft enough to come back to you.
++0:00.7 Target: ten without a break.
++0:00.7 Higher and softer to keep it going.
++0:00.7 Same stance every time.

@@ -1,0 +1,175 @@
+// Ghosting calls: a position, the beep when you should be there and swinging, then time to get back
+// to the T before the next call. Each pace's times count from the end of the call, then from the
+// beep. Front is the longest run; back is shorter but needs a turn; middle is one or two steps.
+// Each call is heard mostly on its side of the court: enough to hear the side at once, while the other
+// ear still faintly hears it with one earbud in.
+
+// Easy pace.
+@define [easy front left]:
+  @say{pan -0.85} Front left
+  +0:01 [beep]
+  +0:02.2
+
+@define [easy front right]:
+  @say{pan 0.85} Front right
+  +0:01 [beep]
+  +0:02.2
+
+@define [easy middle left]:
+  @say{pan -0.85} Middle left
+  +0:01 [beep]
+  +0:02.2
+
+@define [easy middle right]:
+  @say{pan 0.85} Middle right
+  +0:01 [beep]
+  +0:02.2
+
+@define [easy back left]:
+  @say{pan -0.85} Back left
+  +0:01 [beep]
+  +0:02.2
+
+@define [easy back right]:
+  @say{pan 0.85} Back right
+  +0:01 [beep]
+  +0:02.2
+
+@define [easy front]: @random [easy front left], [easy front right]
+@define [easy middle]: @random [easy middle left], [easy middle right]
+@define [easy back]: @random [easy back left], [easy back right]
+@define [easy all]: @random [easy front], [easy middle], [easy back]
+
+// Slow pace.
+@define [slow front left]:
+  @say{pan -0.85} Front left
+  +0:02.6 [beep]
+  +0:03
+
+@define [slow front right]:
+  @say{pan 0.85} Front right
+  +0:02.6 [beep]
+  +0:03
+
+@define [slow middle left]:
+  @say{pan -0.85} Middle left
+  +0:01.6 [beep]
+  +0:02.2
+
+@define [slow middle right]:
+  @say{pan 0.85} Middle right
+  +0:01.6 [beep]
+  +0:02.2
+
+@define [slow back left]:
+  @say{pan -0.85} Back left
+  +0:02.4 [beep]
+  +0:02.8
+
+@define [slow back right]:
+  @say{pan 0.85} Back right
+  +0:02.4 [beep]
+  +0:02.8
+
+@define [slow front]: @random [slow front left], [slow front right]
+@define [slow middle]: @random [slow middle left], [slow middle right]
+@define [slow back]: @random [slow back left], [slow back right]
+@define [slow all]: @random [slow front], [slow middle], [slow back]
+
+// Medium pace.
+@define [medium front left]:
+  @say{pan -0.85} Front left
+  +0:02.1 [beep]
+  +0:02.4
+
+@define [medium front right]:
+  @say{pan 0.85} Front right
+  +0:02.1 [beep]
+  +0:02.4
+
+@define [medium middle left]:
+  @say{pan -0.85} Middle left
+  +0:01.3 [beep]
+  +0:01.7
+
+@define [medium middle right]:
+  @say{pan 0.85} Middle right
+  +0:01.3 [beep]
+  +0:01.7
+
+@define [medium back left]:
+  @say{pan -0.85} Back left
+  +0:01.9 [beep]
+  +0:02.2
+
+@define [medium back right]:
+  @say{pan 0.85} Back right
+  +0:01.9 [beep]
+  +0:02.2
+
+@define [medium front]: @random [medium front left], [medium front right]
+@define [medium middle]: @random [medium middle left], [medium middle right]
+@define [medium back]: @random [medium back left], [medium back right]
+@define [medium all]: @random [medium front], [medium middle], [medium back]
+
+// Fast pace.
+@define [fast front left]:
+  @say{pan -0.85} Front left
+  +0:01.7 [beep]
+  +0:02
+
+@define [fast front right]:
+  @say{pan 0.85} Front right
+  +0:01.7 [beep]
+  +0:02
+
+@define [fast middle left]:
+  @say{pan -0.85} Middle left
+  +0:01 [beep]
+  +0:01.4
+
+@define [fast middle right]:
+  @say{pan 0.85} Middle right
+  +0:01 [beep]
+  +0:01.4
+
+@define [fast back left]:
+  @say{pan -0.85} Back left
+  +0:01.5 [beep]
+  +0:01.8
+
+@define [fast back right]:
+  @say{pan 0.85} Back right
+  +0:01.5 [beep]
+  +0:01.8
+
+@define [fast front]: @random [fast front left], [fast front right]
+@define [fast middle]: @random [fast middle left], [fast middle right]
+@define [fast back]: @random [fast back left], [fast back right]
+@define [fast all]: @random [fast front], [fast middle], [fast back]
+
+// The middle with the stance to play it in, at slow pace. An open stance is a rushed ball, so its beep
+// comes sooner.
+@define [slow open middle left]:
+  @say{pan -0.85} Open, middle left.
+  +0:01.1 [beep]
+  +0:02.2
+
+@define [slow closed middle left]:
+  @say{pan -0.85} Closed, middle left.
+  +0:01.6 [beep]
+  +0:02.2
+
+@define [slow open middle right]:
+  @say{pan 0.85} Open, middle right.
+  +0:01.1 [beep]
+  +0:02.2
+
+@define [slow closed middle right]:
+  @say{pan 0.85} Closed, middle right.
+  +0:01.6 [beep]
+  +0:02.2
+
+@define [slow stance middle]:
+  @random [slow open middle left], [slow closed middle left],
+    [slow open middle right], [slow closed middle right]

@@ -1,0 +1,58 @@
+// The sounds the squash sessions share, and the ghosting calls.
+@include sounds.overtone
+@include ghosting.overtone
+
+// Ghosting: you should be at the position and swinging now.
+@define [beep]:
+  @tone{pitch 1568 Hz, length 0:00.09, volume 0.6}
+
+// The drills every session shares: a session plays each as a chapter, as in
+//   ## Movement warm-up (4 min)
+//   [movement warm-up]
+
+@define [movement warm-up]:
+  Movement warm-up. Two minutes of moves as I call them, then two minutes of split steps at the T,
+  taking two steps toward each call.
+  +0:00.5 [countdown]
+  --- 4:00
+  0:00 [go]
+  0:01 Jog round the court.
+  0:20 Side-steps.
+  0:40 Lunges, alternating legs.
+  1:00 Open and close the hips.
+  1:20 High knees.
+  1:40 Arm circles, both directions.
+  2:00 Back to the T. Split steps now.
+  2:04 @random{fill, no repeats} [easy all]
+  ---
+  [stop]
+
+@define [figure of eight]:
+  Figure of eight warm-up, three minutes. In the middle, a step in front of the short line, facing the
+  front wall. Front wall only: aim around the service line, just across from centre, so the ball comes
+  back to your other side: forehand, backhand, forehand, letting each ball bounce once in front of
+  you.
+  +0:00.5 [countdown]
+  --- 3:00
+  0:00 [go]
+  0:15 Easy. This warms the ball.
+  1:15 Racket up between every shot.
+  2:20 Follow through forward, not across your body.
+  -0:10 Ten seconds.
+  ---
+  [stop]
+
+@define [cool-down]:
+  Cool-down, three minutes. Easy figure of eight, then the stretches as I call them.
+  +0:00.5 [countdown]
+  --- 3:00
+  0:00 [go]
+  0:05 Nice and easy. Breathe out.
+  0:45 Ball down. Calf stretch, left leg back.
+  1:07 Switch legs.
+  1:30 Hip stretch. Long lunge, left leg back.
+  1:52 Switch legs.
+  2:15 Shoulder stretch. Left arm across.
+  2:37 Switch arms.
+  ---
+  [stop]

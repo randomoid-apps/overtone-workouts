@@ -15,6 +15,7 @@ rests, repeats and holds. See the [script format](SCRIPT-FORMAT.md) for how to w
 | `exercises/<group>/` | One script per exercise, a single chapter, grouped by what it works (`legs`, `core`, `upper-body`, `full-body`, `cardio`) |
 | `shared/` | What exercises and workouts include, such as the tones in `sounds.overtone` |
 | `images/` | Artwork that workouts name |
+| `drafts/` | Workouts being written: checked like the rest, but not published |
 | `published/`, `artwork/`, `catalog.json` | Written from the rest by Overtone's `scripts/workout_catalog.sh`, and what the app reads. Don't edit them |
 
 ## Adding a workout

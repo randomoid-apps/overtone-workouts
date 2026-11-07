@@ -1,0 +1,224 @@
+# Squash solo - Focus: Ball Behind You
+@description Solo practice for one court, about 50 minutes, on the ball that gets past you: going
+  with it, turning to face the corner and hitting it straight, cutting off the cross-court before it
+  gets behind you, and lobbing out of the back, between rounds of ghosting to the back corners.
+@speech rate 1.1
+@minimum gap 0:00.8
+@workout squash
+@artwork ../images/squash.jpg
+@include ../shared/squash.overtone
+
+## Intro
+Focus session: the ball behind you. Go with the ball, turn to face the corner, and hit it high and
+straight. Play the back corner ladder alongside it.
+
+## Movement warm-up (4 min)
+[movement warm-up]
+
+## Figure of eight warm-up (3 min)
+[figure of eight]
+
+// A ball that has got past you, for a right-hander: the right foot lands last on both sides, with the
+// left heel up so the hips can turn. On the forehand that's an open stance, facing the back corner off
+// the right foot; on the backhand a closed one, the right foot stepping across toward the back corner
+// with the back turned to the front wall. From AR Proformance and Squash Originals; the back corner
+// ladder is the progression.
+## Shadow swings: back corners (3 min)
+Shadow swings, back corners, three minutes. No ball. Halfway between the service box and the back
+wall, a racket and an arm off the side wall. Slow swings in the stance for a ball that has got past
+you. Forehands in the back right first, in an open stance: face the back corner, right foot nearest
+the back wall, left heel up so your hips can turn, racket set right back. Drop the racket head below
+the ball, swing up through it, and finish straight down the wall. Then backhands in the back left,
+in a closed stance.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:15 Open stance. Face the corner, right foot back.
+0:55 Finish down the wall, not into the middle.
+1:30 Switch. Backhands, closed stance: back to the front wall, right foot across to the corner.
+2:10 Lower ball? Bend your knees. Stay balanced.
+-0:10 Ten seconds.
+---
+[stop]
+
+## Ghosting: go with the ball (3 min)
+Ghosting, go with the ball, three minutes. Slow pace, back corners. Shuffle first, keeping the court
+in view, and move back along the side of the service box, alongside the ball, not across into it.
+Quick off the T, then slow into the shot, right foot last on both sides: open and facing the corner
+on the forehand, closed with your back to the front wall on the backhand. Swing on the beep, and get
+back to the T for the next call.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:01 @random{fill, at most 2 in a row} [slow back]
+0:50 Rest. Quick, quick, then slow into the shot.
+-0:03 [countdown]
+1:05 @random{fill, at most 2 in a row} [slow back]
+1:54 Rest. Right foot last. Open on the forehand, closed on the backhand.
+-0:03 [countdown]
+2:09 @random{fill, at most 2 in a row} [slow back]
+---
+[stop]
+
+## Forehand behind you (3 min)
+Forehand behind you, three minutes. In the back right, halfway between the service box and the back
+wall. For the first half, set up in an open stance: face the back corner, right foot nearest the
+back wall and last to land, left heel up so your hips can turn. Drop the ball a racket's length out
+toward the side wall, level with your right heel, so it's deeper than you'd like, and hit it soft
+and high straight down the wall, first bounce near the back of the service box. Then step up to the
+short line, hit yourself a high, soft straight drive that goes past you, move back with it, and play
+it the same way. Score each set of ten.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:15 Open stance, facing the corner. Drop the racket head.
+1:00 Right foot to the back wall. Left heel up.
+1:30 Now from the short line. Let it go past you, then go with it.
+2:15 Count them: straight, and bouncing first behind the short line.
+-0:10 Ten seconds.
+---
+[stop]
+
+## Backhand behind you (3 min)
+Backhand behind you, three minutes. In the back left, halfway between the service box and the back
+wall. For the first half, set up in a closed stance: back turned toward the front wall, right foot
+stepping across toward the back corner and last to land, left heel up so your hips can turn. Drop
+the ball a racket's length out toward the side wall, level with your right heel, so it's deeper than
+you'd like, and hit it soft and high straight down the wall, first bounce near the back of the
+service box. Then step up to the short line, hit yourself a high, soft straight drive that goes past
+you, move back with it, and play it the same way. Score each set of ten.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:15 Closed stance, right foot across. Drop the racket head.
+1:00 Back to the front wall. Racket set high.
+1:30 Now from the short line. Let it go past you, then go with it.
+2:15 Count them: straight, and bouncing first behind the short line.
+-0:10 Ten seconds.
+---
+[stop]
+
+## Ghosting: turn in the corner (3 min)
+Ghosting, turn in the corner, three minutes. Medium pace, back corners, every one a ball that has
+got past you. Back right, open, facing the corner. Back left, closed, back to the front wall. Swing
+straight down the wall on the beep. Then push off your right foot, one step out, and back to the T
+for the next call.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:01 @random{fill, at most 2 in a row} [medium back]
+0:47 Rest. Push off your right foot.
+-0:03 [countdown]
+1:02 @random{fill, at most 2 in a row} [medium back]
+1:48 Rest. Hips to the front on the way back, chest turned.
+-0:03 [countdown]
+2:03 @random{fill, at most 2 in a row} [medium back]
+---
+[stop]
+
+## Cross-court cut-off (3 min)
+Cross-court cut-off, three minutes. Put a spare ball on the floor at the front of each service box,
+a metre in from the side wall. They're only markers. Stand by the right one and hit a high, soft
+cross-court aimed to bounce by the left one. Move across and volley it before it gets there, then
+cross it back toward the right marker and cut that one off too. Slow, high feeds to start. Halfway,
+move both markers back to the short line, so you're cutting off deeper balls. A ball you cut off
+never gets behind you.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:15 Move as it leaves the front wall.
+0:55 Racket up as you cross. Take it before it passes you.
+1:30 Move the markers back to the short line.
+2:10 Going well? Lower and quicker.
+-0:10 Ten seconds.
+---
+[stop]
+
+## Ghosting: drive and cut off (3 min)
+Ghosting, drive and cut off, three minutes. Medium pace, back corners and the middle. A back call is
+a drive from the corner. A middle call is the cross-court you hunt, so push forward and across to
+volley it. Swing on the beep, and get back to the T for the next call.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:01 @random{fill, no repeats} [medium back], [medium middle]
+0:47 Rest. Back: go with the ball. Middle: go forward to it.
+-0:03 [countdown]
+1:02 @random{fill, no repeats} [medium back], [medium middle]
+1:48 Rest. Split step on every call.
+-0:03 [countdown]
+2:03 @random{fill, no repeats} [medium back], [medium middle]
+---
+[stop]
+
+## Drives and a cross-court lob (3 min)
+Drives and a cross-court lob, three minutes. At the back of the right service box. Three straight
+drives, then a high cross-court lob to the back left, three straight backhand drives there, and lob
+back. Let each drive get a little past you, so you play it in the stance, facing the corner. The lob
+is the way out when the ball has beaten you: get low, open the face, and lift it high to the far
+back corner.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:15 One, two, three, lob.
+1:00 Get under the lob. Lift it high.
+1:45 Lob high enough to get back to the T.
+2:20 Straight drives tight to the wall.
+-0:10 Ten seconds.
+---
+[stop]
+
+## Forehand past you when tired (2 min)
+Forehand past you when tired, two minutes. From the short line, hit yourself a high, soft straight
+drive that goes past you, move back with it, and play it straight and high from the stance. Tired is
+when you stop turning and start reaching, so hold the same shot. Score each set of ten: straight,
+and bouncing first behind the short line.
++0:00.5 [countdown]
+--- 2:00
+0:00 [go]
+0:20 Go with the ball. Open stance, facing the corner.
+1:10 Count them.
+-0:10 Ten seconds.
+---
+[stop]
+
+## Backhand past you when tired (2 min)
+Backhand past you when tired, two minutes. From the short line, hit yourself a high, soft straight
+drive that goes past you, move back with it, and play it straight and high from the stance. Tired is
+when you stop turning and start reaching, so hold the same shot. Score each set of ten: straight,
+and bouncing first behind the short line.
++0:00.5 [countdown]
+--- 2:00
+0:00 [go]
+0:20 Go with the ball. Closed stance, right foot across.
+1:10 Count them.
+-0:10 Ten seconds.
+---
+[stop]
+
+## Ghosting: deep balls (3 min)
+Ghosting, deep balls, three minutes. Fast pace, all six positions, with the back corners called
+twice as often. Every back corner in the stance: open on the forehand, closed on the backhand. Split
+step on every call, swing on the beep, and sprint back to the T for the next call.
++0:00.5 [countdown]
+--- 3:00
+0:00 [go]
+0:01 @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
+0:33 Rest. Back corners: go with the ball.
+-0:03 [countdown]
+0:48 @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
+1:20 Rest. Push off your right foot, back to the T.
+-0:03 [countdown]
+1:35 @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
+2:07 Rest. Last round. Stay engaged.
+-0:03 [countdown]
+2:22 @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
+---
+[stop]
+
+## Cool-down (3 min)
+[cool-down]
+
+## Finish
++0:01.5 That's the focus session. Well done.
+--- 0:01
