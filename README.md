@@ -45,7 +45,7 @@ Squats. Feet shoulder-width apart, sit back, chest up.
 +0:00.5 [countdown]
 --- 0:30
 0:00 [go]
-0:15 Halfway. Down until the thighs are level.
+50% Halfway. Down until the thighs are level.
 -0:05 Five seconds.
 ---
 [stop]
@@ -56,6 +56,9 @@ do it, which New Workout uses as its tip, leaving out the name and a length said
 ("Ghosting, front corners, three minutes."). Its timed part (`--- 0:30`, 5 seconds to 10 minutes in
 steps of 5) is how long it usually lasts; for as many as you can, use `@ladder` and no timed part,
 so the app waits until the listener taps Next. `@track Reps` asks for a number as it finishes.
+Time what happens at a point in it, such as halfway, as a percentage of the timed part (`50%`), so it
+stays in place when the length is changed in the script editor; keep seconds for what
+doesn't change with it, such as `-0:05 Five seconds.`
 
 Only send what you wrote yourself, or have permission to share under this repository's licence.
 Workouts are reviewed before they're merged, and the app shows them to everyone, so keep them

@@ -30,10 +30,10 @@ in a closed stance.
 +0:00.5 [countdown]
 --- 3:00
 0:00 [go]
-0:15 Open stance. Face the corner, right foot back.
-0:55 Finish down the wall, not into the middle.
-1:30 Switch. Backhands, closed stance: back to the front wall, right foot across to the corner.
-2:10 Lower ball? Bend your knees. Stay balanced.
+8% Open stance. Face the corner, right foot back.
+31% Finish down the wall, not into the middle.
+50% Switch. Backhands, closed stance: back to the front wall, right foot across to the corner.
+72% Lower ball? Bend your knees. Stay balanced.
 -0:10 Ten seconds.
 ---
 [stop]
@@ -48,12 +48,12 @@ back to the T for the next call.
 --- 3:00
 0:00 [go]
 0:01 @random{fill, at most 2 in a row} [slow back]
-0:50 Rest. Quick, quick, then slow into the shot.
+28% Rest. Quick, quick, then slow into the shot.
 -0:03 [countdown]
-1:05 @random{fill, at most 2 in a row} [slow back]
-1:54 Rest. Right foot last. Open on the forehand, closed on the backhand.
+36% @random{fill, at most 2 in a row} [slow back]
+63% Rest. Right foot last. Open on the forehand, closed on the backhand.
 -0:03 [countdown]
-2:09 @random{fill, at most 2 in a row} [slow back]
+72% @random{fill, at most 2 in a row} [slow back]
 ---
 [stop]
 
@@ -68,10 +68,10 @@ it the same way. Score each set of ten.
 +0:00.5 [countdown]
 --- 3:00
 0:00 [go]
-0:15 Open stance, facing the corner. Drop the racket head.
-1:00 Right foot to the back wall. Left heel up.
-1:30 Now from the short line. Let it go past you, then go with it.
-2:15 Count them: straight, and bouncing first behind the short line.
+8% Open stance, facing the corner. Drop the racket head.
+33% Right foot to the back wall. Left heel up.
+50% Now from the short line. Let it go past you, then go with it.
+75% Count them: straight, and bouncing first behind the short line.
 -0:10 Ten seconds.
 ---
 [stop]
@@ -87,10 +87,10 @@ you, move back with it, and play it the same way. Score each set of ten.
 +0:00.5 [countdown]
 --- 3:00
 0:00 [go]
-0:15 Closed stance, right foot across. Drop the racket head.
-1:00 Back to the front wall. Racket set high.
-1:30 Now from the short line. Let it go past you, then go with it.
-2:15 Count them: straight, and bouncing first behind the short line.
+8% Closed stance, right foot across. Drop the racket head.
+33% Back to the front wall. Racket set high.
+50% Now from the short line. Let it go past you, then go with it.
+75% Count them: straight, and bouncing first behind the short line.
 -0:10 Ten seconds.
 ---
 [stop]
@@ -104,12 +104,12 @@ for the next call.
 --- 3:00
 0:00 [go]
 0:01 @random{fill, at most 2 in a row} [medium back]
-0:47 Rest. Push off your right foot.
+26% Rest. Push off your right foot.
 -0:03 [countdown]
-1:02 @random{fill, at most 2 in a row} [medium back]
-1:48 Rest. Hips to the front on the way back, chest turned.
+34% @random{fill, at most 2 in a row} [medium back]
+60% Rest. Hips to the front on the way back, chest turned.
 -0:03 [countdown]
-2:03 @random{fill, at most 2 in a row} [medium back]
+68% @random{fill, at most 2 in a row} [medium back]
 ---
 [stop]
 
@@ -123,10 +123,10 @@ never gets behind you.
 +0:00.5 [countdown]
 --- 3:00
 0:00 [go]
-0:15 Move as it leaves the front wall.
-0:55 Racket up as you cross. Take it before it passes you.
-1:30 Move the markers back to the short line.
-2:10 Going well? Lower and quicker.
+8% Move as it leaves the front wall.
+31% Racket up as you cross. Take it before it passes you.
+50% Move the markers back to the short line.
+72% Going well? Lower and quicker.
 -0:10 Ten seconds.
 ---
 [stop]
@@ -139,12 +139,12 @@ volley it. Swing on the beep, and get back to the T for the next call.
 --- 3:00
 0:00 [go]
 0:01 @random{fill, no repeats} [medium back], [medium middle]
-0:47 Rest. Back: go with the ball. Middle: go forward to it.
+26% Rest. Back: go with the ball. Middle: go forward to it.
 -0:03 [countdown]
-1:02 @random{fill, no repeats} [medium back], [medium middle]
-1:48 Rest. Split step on every call.
+34% @random{fill, no repeats} [medium back], [medium middle]
+60% Rest. Split step on every call.
 -0:03 [countdown]
-2:03 @random{fill, no repeats} [medium back], [medium middle]
+68% @random{fill, no repeats} [medium back], [medium middle]
 ---
 [stop]
 
@@ -157,10 +157,10 @@ back corner.
 +0:00.5 [countdown]
 --- 3:00
 0:00 [go]
-0:15 One, two, three, lob.
-1:00 Get under the lob. Lift it high.
-1:45 Lob high enough to get back to the T.
-2:20 Straight drives tight to the wall.
+8% One, two, three, lob.
+33% Get under the lob. Lift it high.
+58% Lob high enough to get back to the T.
+78% Straight drives tight to the wall.
 -0:10 Ten seconds.
 ---
 [stop]
@@ -173,8 +173,8 @@ and bouncing first behind the short line.
 +0:00.5 [countdown]
 --- 2:00
 0:00 [go]
-0:20 Go with the ball. Open stance, facing the corner.
-1:10 Count them.
+17% Go with the ball. Open stance, facing the corner.
+58% Count them.
 -0:10 Ten seconds.
 ---
 [stop]
@@ -187,8 +187,8 @@ and bouncing first behind the short line.
 +0:00.5 [countdown]
 --- 2:00
 0:00 [go]
-0:20 Go with the ball. Closed stance, right foot across.
-1:10 Count them.
+17% Go with the ball. Closed stance, right foot across.
+58% Count them.
 -0:10 Ten seconds.
 ---
 [stop]
@@ -201,15 +201,15 @@ step on every call, swing on the beep, and sprint back to the T for the next cal
 --- 3:00
 0:00 [go]
 0:01 @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
-0:33 Rest. Back corners: go with the ball.
+18% Rest. Back corners: go with the ball.
 -0:03 [countdown]
-0:48 @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
-1:20 Rest. Push off your right foot, back to the T.
+27% @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
+44% Rest. Push off your right foot, back to the T.
 -0:03 [countdown]
-1:35 @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
-2:07 Rest. Last round. Stay engaged.
+53% @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
+71% Rest. Last round. Stay engaged.
 -0:03 [countdown]
-2:22 @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
+79% @random{fill, no repeats} [fast back], [fast back], [fast front], [fast middle]
 ---
 [stop]
 

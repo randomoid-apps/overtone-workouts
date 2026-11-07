@@ -29,7 +29,7 @@ Easy jog to the bottom of the hill.
 Hill repeat. Up on the tone.
 --- 1:15
 0:00 [go]
-0:30 Halfway. Drive the arms.
+50% Halfway. Drive the arms.
 -0:15 Fifteen seconds. Push.
 ```
 
@@ -98,13 +98,23 @@ A time is minutes and seconds, `m:ss`, with an optional fraction: `1:30`,
 | `Text to say.` | Half a second after the line before finishes |
 | `+0:00.7 Text to say.` | 0.7 s after the line before finishes |
 | `0:15 Text to say.` | 15 s into the part |
-| `-0:03 Text to say.` | 3 s before the next line with a time like `0:15`, or before the part ends if there's none |
-| `+0:02`, `0:15`, `-0:03` | Nothing, at that time: the next line follows on from then |
+| `-0:03 Text to say.` | 3 s before the next line with a time like `0:15` or `25%`, or before the part ends if there's none |
+| `25% Text to say.` | A quarter of the way into the part, whatever its length |
+| `-10% Text to say.` | 10% of the part's length before the next line with a time like `0:15` or `25%`, or before the part ends |
+| `+0:02`, `0:15`, `-0:03`, `25%`, `-10%` | Nothing, at that time: the next line follows on from then |
 
 So `+0:02` alone is a pause, and `0:15` alone holds what follows until
 0:15, or ends a fill there. A countdown stays with what it counts down to, and `-0:10 Ten seconds.`
 at the end of a part stays ten seconds before its end. Lines with times
 like `0:15` come in order, within their part.
+
+A percentage is of the part's length, so it's only in a part with one, as
+in `--- 3:00`: from `0%` to `100%`, with an optional fraction, `12.5%`.
+`50% Halfway.` stays halfway when the part is made longer or shorter, where
+`0:15 Halfway.` stays at 15 s. The two mix in a part: use a time for a
+moment that doesn't change with the length, such as a line a second after
+the tone that starts the part, or a countdown, `-0:03`, before a round that
+starts at `36%`.
 
 Text without a time that runs over several lines is one line: lines next
 to each other are joined with spaces. Leave a blank line between two that
@@ -316,9 +326,10 @@ shared/warm-up.txt, line 12: this comes before the line with a time above it.
   not "2'". Spell out abbreviations and units.
 - **Time each line by what it depends on.** Lines that follow on from
   each other have no time or a `+` time, so rewording one moves the rest
-  along with it. Only lines tied to a moment have a time like `0:15`, and
-  countdowns count back, `-0:10`, so they stay right if the part's length
-  changes.
+  along with it. Only lines tied to a moment have a time: a percentage,
+  `50%`, for a point in the part, such as halfway or the next round, so it
+  moves with the length; and seconds for what doesn't, such as
+  `-0:10 Ten seconds.`, which counts back from the end.
 - **Give speech of unknown length its own part.** An announcement before
   a timed interval goes in a part without a length, then the interval in
   a part with one.

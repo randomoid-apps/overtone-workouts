@@ -22,7 +22,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CATALOG_VERSION = 1
+# Raised when scripts use what older versions of the app can't read: 2 for percentage times.
+CATALOG_VERSION = 2
 WORDS_PER_SECOND = 2.5
 MINIMUM_GAP = 0.3
 FILE_SETTINGS = ["description", "author", "speech rate", "minimum gap", "workout", "rest", "artwork"]
@@ -269,10 +270,21 @@ class Body:
             return
         timing, content = ("next", None), line
         timed = re.fullmatch(r"([+-]?\d+:\d\d(?::\d\d)?(?:\.\d+)?)(?: (.+))?", line)
+        share = None if timed else re.fullmatch(r"(-?)(\d+(?:\.\d+)?)%(?: (.+))?", line)
         if timed:
             time = seconds(timed.group(1), place)
             kind = {"+": "after", "-": "before"}.get(timed.group(1)[0], "at")
             timing, content = (kind, time), timed.group(2)
+        elif share:
+            # A percentage of the part's length, as seconds of it.
+            duration, percent = self.parts[-1]["duration"], float(share.group(2))
+            if duration is None:
+                raise ScriptError(f"{place}: a percentage is of the part's length, so it needs a part with one, "
+                                  "as in --- 3:00")
+            if percent > 100:
+                raise ScriptError(f"{place}: a percentage of the part's length is 0% to 100%")
+            timing, content = ("before" if share.group(1) else "at", duration * percent / 100), share.group(3)
+        timed = timed or share
         lines = self.parts[-1]["lines"]
         if content is None:
             lines.append({"timing": timing, "kind": ("say", ""), "fills": False})
