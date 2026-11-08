@@ -1,0 +1,31 @@
+# Squash solo - Phase 1 C: Both Sides
+@description Solo practice for one court, about 50 minutes, on the shots that use both walls:
+  boasts and cross-courts, forehand to backhand volleys, boasts and lobs, the serve, and length
+  when tired, with ghosting after every two drills. Play sessions A, B and C in turn. Each drill has
+  a target; hit every target in two of these sessions in a row to move up.
+@speech rate 1.1
+@minimum gap 0:00.8
+@workout squash
+@artwork ../images/squash.jpg
+
+## Intro
+Phase one, session C: both sides. Boasts, cross-courts, the serve, and length when you're tired.
+Drills with a phase two target say so. Hit every target in two of these sessions in a row to move
+up.
+
+@include ../exercises/squash/movement-warm-up.overtone
+@include ../exercises/squash/figure-of-eight-warm-up.overtone
+@include ../exercises/squash/boast-and-cross-court.overtone
+@include ../exercises/squash/forehand-to-backhand-volleys.overtone
+@include ../exercises/squash/ghosting-split-step-and-go.overtone
+@include ../exercises/squash/boast-and-straight-lob.overtone
+@include ../exercises/squash/serve-then-t.overtone
+@include ../exercises/squash/ghosting-back-to-front.overtone
+@include ../exercises/squash/forehand-length-when-tired.overtone
+@include ../exercises/squash/backhand-length-when-tired.overtone
+@include ../exercises/squash/ghosting-drop-retrieval.overtone
+@include ../exercises/squash/cool-down.overtone
+
+## Finish
++0:01.5 That's session C. Next time, back to session A, the forehand. Well done.
+--- 0:01

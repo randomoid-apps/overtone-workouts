@@ -1,15 +1,19 @@
 @include ../../shared/squash.overtone
 
 ## Backhand length when tired
-Backhand length when tired, two minutes. Behind the short line, straight drives aimed a racket head
+Backhand length when tired, four minutes. Behind the short line, straight drives aimed a racket head
 above the service line, as earlier. Tired is when length drops short in a match, so hold the same
 shot. Score each set of ten by how many bounce first behind the short line, resetting with a softer
-one whenever you need to.
+one whenever you need to. Halfway, go to the T between shots.
 +0:00.5 [countdown]
---- 2:00
+--- 4:00
 0:00 [go]
-17% Aim higher, not harder.
-58% Racket up early. Count them.
+8% Aim higher, not harder.
+25% Racket up early. Count them.
+40% Score that ten, then the next.
+50% Now drive, touch the T, and get back behind the next one.
+65% Higher and softer whenever you need to reset.
+80% Tired now. Hold the same shot.
 -0:10 Ten seconds.
 ---
 [stop]

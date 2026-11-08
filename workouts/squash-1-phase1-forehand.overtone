@@ -1,0 +1,31 @@
+# Squash solo - Phase 1 A: Forehand
+@description Solo practice for one court, about 50 minutes, every drill on the forehand: straight
+  drives, feeding and stepping in, volleys, volley drops, drops and lobs, and drive, volley, drop,
+  with ghosting after every two drills. Play sessions A, B and C in turn. Each drill has a target;
+  hit every target in two of these sessions in a row to move up.
+@speech rate 1.1
+@minimum gap 0:00.8
+@workout squash
+@artwork ../images/squash.jpg
+
+## Intro
+Phase one, session A: the forehand. Every drill is on your forehand side; the warm-up and the
+ghosting use the whole court. Drills with a phase two target say so. Hit every target in two of
+these sessions in a row to move up.
+
+@include ../exercises/squash/movement-warm-up.overtone
+@include ../exercises/squash/figure-of-eight-warm-up.overtone
+@include ../exercises/squash/forehand-straight-drives.overtone
+@include ../exercises/squash/forehand-feed-and-step-in.overtone
+@include ../exercises/squash/ghosting-back-corners.overtone
+@include ../exercises/squash/forehand-ladder-volleys.overtone
+@include ../exercises/squash/forehand-volley-heights.overtone
+@include ../exercises/squash/ghosting-front-corners-with-drops.overtone
+@include ../exercises/squash/forehand-drop-and-lob.overtone
+@include ../exercises/squash/forehand-three-shot-sequence.overtone
+@include ../exercises/squash/ghosting-six-points.overtone
+@include ../exercises/squash/cool-down.overtone
+
+## Finish
++0:01.5 That's session A. Next time, session B, the backhand. Well done.
+--- 0:01

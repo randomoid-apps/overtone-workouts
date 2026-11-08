@@ -1,18 +1,18 @@
 @include ../../shared/squash.overtone
 
 ## Ghosting: split step and go
-Ghosting, split step and go, three minutes. Slow pace, front corners. Reaching drops is about
+Ghosting, split step and go, three minutes. Medium pace, front corners. Reaching drops is about
 starting early, not running faster. Split step as each call starts, push off hard, and lunge closed
 with the racket already up. Swing on the beep, and get back to the T for the next call.
 +0:00.5 [countdown]
 --- 3:00
 0:00 [go]
-0:01 @random{fill, at most 2 in a row} [slow front]
+0:01 @random{fill, at most 2 in a row} [medium front]
 28% Rest. Wait just behind the T, not deep.
 -0:03 [countdown]
-36% @random{fill, at most 2 in a row} [slow front]
+36% @random{fill, at most 2 in a row} [medium front]
 63% Rest. Racket up before you arrive. Stay low in the lunge.
 -0:03 [countdown]
-72% @random{fill, at most 2 in a row} [slow front]
+72% @random{fill, at most 2 in a row} [medium front]
 ---
 [stop]

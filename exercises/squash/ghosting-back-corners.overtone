@@ -1,17 +1,17 @@
 @include ../../shared/squash.overtone
 
 ## Ghosting: back corners
-Ghosting, back corners, three minutes. Slow pace. Go via the corner of the service box, swing on the
-beep, and get back to the T for the next call.
+Ghosting, back corners, three minutes. Medium pace. Go via the corner of the service box, swing on
+the beep, and get back to the T for the next call.
 +0:00.5 [countdown]
 --- 3:00
 0:00 [go]
-0:01 @random{fill, at most 2 in a row} [slow back]
+0:01 @random{fill, at most 2 in a row} [medium back]
 28% Rest. Plant at forty-five degrees. Full swish.
 -0:03 [countdown]
-36% @random{fill, at most 2 in a row} [slow back]
+36% @random{fill, at most 2 in a row} [medium back]
 63% Rest. Fast back to the T. Split step.
 -0:03 [countdown]
-72% @random{fill, at most 2 in a row} [slow back]
+72% @random{fill, at most 2 in a row} [medium back]
 ---
 [stop]

@@ -1,14 +1,19 @@
 @include ../../shared/squash.overtone
 
 ## Forehand three-shot sequence
-Forehand three-shot sequence, two minutes. Straight drives in turn. Soft, on the service line,
-bouncing in the service box. Medium, a racket head above it, bouncing behind the box. Then hard,
-just under the service line, so it comes off the back wall.
+Forehand three-shot sequence, five minutes. Straight drives in turn first. Soft, on the service
+line, bouncing in the service box. Medium, a racket head above it, bouncing behind the box. Then
+hard, just under the service line, so it comes off the back wall. Halfway, drive, volley and drop.
 +0:00.5 [countdown]
---- 2:00
+--- 5:00
 0:00 [go]
-17% Soft. Medium. Hard.
-58% Same preparation every time. Only the swing speed changes.
+8% Soft. Medium. Hard.
+25% Same preparation every time. Only the swing speed changes.
+38% Hard one off the back wall? Then it's right.
+50% Now drive, volley, drop. Drive from behind the short line, step in and volley the return, then drop the next one short. Pick it up, and go again.
+63% Volley it softer, so it comes back short enough to drop.
+76% Racket up between every shot.
+88% Stay low and still for the drop.
 -0:10 Ten seconds.
 ---
 [stop]
