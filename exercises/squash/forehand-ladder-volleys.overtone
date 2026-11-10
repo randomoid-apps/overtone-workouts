@@ -3,11 +3,13 @@
 // The ladder volleys are played from the line of the player's current volley ladder level, so the
 // session moves back with the ladder.
 ## Forehand ladder volleys
+@track Volleys
 Forehand ladder volleys, five minutes. Start within two metres of the front wall, on your forehand
 side, a metre or so off the side wall: soft volleys above the service line, hitting each one again
-before it bounces. Then move back behind the tape for your volley ladder level: halfway to the
-short line, three-quarters of the way, or the short line itself. Let it bounce if you lose it.
-Phase two target: twenty without a break from the three-quarter line.
+before it bounces. Then move back behind the tape for your volley ladder level: halfway to the short
+line, three-quarters of the way, or the short line itself. Let it bounce if you lose it. The last
+thirty seconds are your ladder check. Phase two target: twenty without a break from the
+three-quarter line.
 +0:00.5 [countdown]
 --- 5:00
 0:00 [go]
@@ -15,9 +17,9 @@ Phase two target: twenty without a break from the three-quarter line.
 20% Shoulders to the side wall.
 33% Move back to your ladder line. Serve it up, and keep volleying.
 45% Racket above the ball. Come down on it.
-58% Count them. Lose it? Restart, and count from zero.
-72% Follow through to the front wall.
-85% Last minute. Your best run of the day.
+60% Lose it? Let it bounce, and serve it up again.
+75% Follow through to the front wall.
+-0:30 Ladder check. Thirty seconds from your ladder line: count your best run without a break.
 -0:10 Ten seconds.
 ---
 [stop]

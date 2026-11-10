@@ -1,18 +1,20 @@
 @include ../../shared/squash.overtone
 
 ## Forehand to backhand volleys
+@track Volleys
 Forehand to backhand volleys, five minutes. In the middle, two metres from the front wall: forehand
 across to your backhand, backhand back across, hitting around the service line just off centre. Let
-it bounce for the first part. Phase two target: twenty volleys in one rally, without a break.
+it bounce for the first part. The last thirty seconds are your ladder check. Phase two target:
+twenty volleys in one rally, without a break.
 +0:00.5 [countdown]
 --- 5:00
 0:00 [go]
 7% Short swings. Racket up early.
 20% Around the service line, just off centre.
-33% Now on the volley. Target: twenty without a break. Lose it? Restart with a bounce, and count from zero.
+33% Now on the volley. Lose it? Restart with a bounce.
 50% Keep the rhythm. Watch the ball.
 65% Now a step further back. More time, a firmer punch.
-80% Count them. Your best run of the day.
+-0:30 Ladder check. Back where you started: count your best run on the volley. Target: twenty.
 -0:10 Ten seconds.
 ---
 [stop]

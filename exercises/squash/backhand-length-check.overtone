@@ -1,15 +1,18 @@
 @include ../../shared/squash.overtone
 
 ## Backhand length check
+@track Out of 10
 Backhand length check, two minutes. Straight drives to length from behind the short line: a racket
-head above the service line, first bounce behind the service box. Score each set of ten by how many
-bounce first behind the short line. Reset with a softer one whenever you need to. Resets don't
-count. Phase two target: eight out of ten, misses in between allowed.
+head above the service line, first bounce behind the service box. In the last thirty seconds, the
+ladder check: score ten by how many bounce first behind the short line. Reset with a softer one
+whenever you need to. Resets don't count. Phase two target: eight out of ten, misses in between
+allowed.
 +0:00.5 [countdown]
 --- 2:00
 0:00 [go]
 17% Racket up early. Finish high.
-58% Count them. Target: eight out of ten.
+50% Aim higher, not harder.
+-0:30 Ladder check. Score the next ten. Target: eight out of ten.
 -0:10 Ten seconds.
 ---
 [stop]
